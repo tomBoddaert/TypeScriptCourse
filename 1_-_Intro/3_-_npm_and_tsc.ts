@@ -14,4 +14,7 @@ To install the TypeScript package, we use 'npm i typescript'
 To run tsc, we use 'npx tsc path/to/file.ts', which generates a JavaScript
   file at 'path/to/file.js'
 
+If packages are predefined in 'package.json' or 'package-lock.json', they
+  can be installed by running 'npm i' in the directory
+
 */

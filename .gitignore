@@ -3,3 +3,6 @@
 
 # Transpiled JS
 *.js
+
+# package-lock
+package-lock.json
