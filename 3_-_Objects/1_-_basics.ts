@@ -11,7 +11,7 @@ Objects are denoted by curly brackets ('{ key1: value1, key2: value2 }')
 
 var obj1 = { 'a': 1, 'b': 2 }
 
-var obj2 = { a: 1, b: 2 }
+var obj2 = { a: 1, b: 2}
 
 // Here, JavaScript assumes the keys are strings, so obj1 is the same as
 //   obj2
