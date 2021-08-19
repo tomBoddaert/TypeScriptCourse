@@ -39,7 +39,7 @@ undefined
 
 ### Adding values
 
-To add values to an array, we use [`Array.prototype.push`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) method, which takes any number of the same type of value as the array it is called on.
+To add values to an array, we use [`Array.prototype.push()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) method, which takes any number of the same type of value as the array it is called on.
 
 ``` typescript
 const arr = [ 'a', 'b', 'c' ];

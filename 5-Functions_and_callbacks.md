@@ -32,7 +32,7 @@ These are functions without a name but they can be assigned to a variable.
 
 ### Arrow functions
 
-These are functions declared with the ES6 arrow function syntax. They are anonymous and can be assigned to a variable too. They also preserve the `this` context (which you will learn about later), which means they shouldn't be used for methods (which are in the next chapter). Without curly brackets, they return the return value of the one line of body (with curly brackets, the `return` keyword is used). If there is only 1 parameter and its type can be ommitted, the brackets are not needed (an example of this can be found in [callbacks](#callbacks)).
+These are functions declared with the ES6 arrow function syntax. They are anonymous and can be assigned to a variable too. They also preserve the `this` context (which you will learn about later), which means they shouldn't be used for methods (which are in the next chapter). Without curly brackets, they return the return value of the expression, with curly brackets, the `return` keyword is used in the body. If there is only 1 parameter and its type can be ommitted, the brackets are not needed (an example of this can be found in [callbacks](#callbacks)).
 
 ``` typescript
 ( x: number ) => x * 2;
@@ -71,8 +71,7 @@ customLog( 1, 'First log' );
 
 We usually use anonymous or arrow functions to define callbacks.
 
-For example, here's a function that does something and then, once done, calls the provided callback with the result.
-(Yes, this function actually does nothing and `5` is always the result)
+For example, here's a function that does something and then, once done, calls the provided callback with the result (yes, this function actually does nothing and `5` is always the result).
 
 ``` typescript
 function doSomething( callback: ( result: number ) => void ) {

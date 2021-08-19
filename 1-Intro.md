@@ -88,3 +88,5 @@ To change directory in the terminal, you can use `cd <directory>`.
 The Node Package Manager manages JavaScript packages for Node.js. Packages can be installed with `npm install <package name>` or `npm i <package name>`. This also adds them to the list of "dependancies" in `package.json`.
 
 To install the TypeScript tools (including TSC), use `npm i --save-dev typescript`, this will install tsc as a "dev dependancy".
+
+For this course, the dependencies are already in `package.json`, so you can install them simply by running `npm i`.
