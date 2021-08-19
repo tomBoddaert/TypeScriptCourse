@@ -1,6 +1,0 @@
-Name: HTTP Client
-Id: mkloubert.vscode-http-client
-Description: Simple way to do HTTP requests.
-Version: 0.34.0
-Publisher: Marcel J. Kloubert
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=mkloubert.vscode-http-client
